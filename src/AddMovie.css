@@ -1,0 +1,46 @@
+.main-container{
+    background-color: rgb(227, 227, 180);
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-left: 200px; */
+    margin: 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgb(0,0,0,0.5);
+}
+.moviesform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: aliceblue; */
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.input-1{
+    height: 40px;
+    width: 350px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    border-color: solid black;
+}
+.input-1::placeholder{
+    color: rgb(146, 144, 144);
+    padding-left: 5px;
+}
+.movies-btn{
+    height: 50px;
+    width: 360px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    border-color: solid black;
+    background-color: rgb(146, 60, 251);
+    cursor: pointer;
+    color: white;
+
+}
+.movies-btn:hover{
+    background-color: rgb(177, 133, 231);
+}

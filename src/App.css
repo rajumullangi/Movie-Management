@@ -1,0 +1,8 @@
+.App {
+  text-align: center;
+}
+.images-list{
+  display: flex;
+  flex-direction: row;
+  
+}
